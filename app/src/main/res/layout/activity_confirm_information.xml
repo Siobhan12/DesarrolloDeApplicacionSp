@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmInformation">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center"
+        android:text="@string/ConfirmarDatos"
+        android:textSize="@dimen/textolayer1"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/linev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+        <TextView
+            android:id="@+id/teCDatos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text = "@string/ConfirmInformation"
+            android:textSize="@dimen/datos"
+            />
+        <TextView
+            android:id="@+id/teCDatos2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text = "@string/ConfirmInformation"
+            android:textSize="@dimen/datos"
+
+            />
+        <TextView
+            android:id="@+id/teCDatos3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text = "@string/ConfirmInformation"
+            android:textSize="@dimen/datos"
+
+            />
+        <TextView
+            android:id="@+id/teCDatos4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text = "@string/ConfirmInformation"
+            android:textSize= "@dimen/datos"
+
+            />
+        <TextView
+            android:id="@+id/teCDatos5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text = "@string/ConfirmInformation"
+            android:textSize="@dimen/datos"
+            />
+
+        <Button
+            android:id="@+id/btnEditarr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Editar"
+            android:background="@color/colorAccent"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

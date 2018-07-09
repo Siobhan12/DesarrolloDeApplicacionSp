@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textolayer1">35sp</dimen>
+    <dimen name="Top">15dp</dimen>
+    <dimen name="CDatos">20sp</dimen>
+    <dimen name="datos">35sp</dimen>
+</resources>
